@@ -1,4 +1,4 @@
-# DARKFLIX - Filmes de terror!
+# DEADFLIX - Filmes de terror!
 Clone do Netflix, mas adaptado para filmes de terror! Criado com <strong>REACT</strong>, orientado por videoaula do instrutor [Bonieky Lacerda](https://www.youtube.com/@bonieky).
 
 ### Deploy
