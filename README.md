@@ -1,5 +1,5 @@
 # DEADFLIX - Filmes de terror!
-Clone do Netflix, mas adaptado para filmes de terror! Criado com <strong>REACT</strong>, orientado por videoaula do instrutor [Bonieky Lacerda](https://www.youtube.com/@bonieky).
+Clone do site Netflix, mas adaptado para filmes de terror! Criado com <strong>REACT</strong>, orientado por videoaula do instrutor [Bonieky Lacerda](https://www.youtube.com/@bonieky).
 
 ### Deploy
 
@@ -21,6 +21,7 @@ Uma aplicação que busca filmes de terror no The Movie Database e exibe as suas
 
 * Melhor entendimento do funcionamento do React;
 * Consumo de API;
+* Consolidação de conhecimentos em CSS;
 
 ## Agradecimentos
 
