@@ -16,8 +16,14 @@ export default () => {
   }, []);
 
   return (
-    <div>
-      <h1>DeadfliX</h1>
+    <div className="page">
+      <section className="lists">
+        {movieList.map((item, key) => (
+          <div>
+            {item.title}
+          </div>
+        ))}
+      </section>
     </div>
   );
 }
