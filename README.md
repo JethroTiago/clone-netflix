@@ -3,7 +3,7 @@ Clone do site Netflix, mas adaptado para filmes de terror! Criado com <strong>RE
 
 ### Deploy
 
--- soon --
+https://deadflix-nu.vercel.app/
 
 ### Visualização do Projeto
 
