@@ -14,6 +14,14 @@ export default () => {
       //Taking the total list
       let list = await Tmdb.getHomeList();
       setMovieList(list);
+
+      //Taking the featured
+      let toprated = list.filter(i=>i.slug === 'toprated');
+      let randomChosen = Math.floor(Math.random() * (toprated[0].items.results.length -1));
+      let chosen = toprated[0].items.results[randomChosen];
+
+      console.log(chosen);
+
     }
 
     loadAll();
