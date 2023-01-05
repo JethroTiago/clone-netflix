@@ -1,3 +1,9 @@
 .featured {
     height: 100vh;
 }
+
+.featured--vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111111, transparent);
+}
