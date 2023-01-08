@@ -42,3 +42,35 @@
     color: #999999;
     max-width: 40%;
 }
+
+.featured--buttons {
+    margin-top: 15px;
+}
+
+.featured--watchbutton,
+.featured--mylistbutton {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+
+.featured--watchbutton:hover,
+.featured--mylistbutton:hover {
+    opacity: 0.7;
+} 
+
+.featured--watchbutton {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.featured--mylistbutton {
+    background-color: #333333;
+    color: #FFFFFF;
+}
