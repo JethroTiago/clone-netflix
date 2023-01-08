@@ -3,7 +3,7 @@ import './Header.css';
 
 export default () => {
     return (
-        <header>
+        <header className="black">
             <div className="header--logo">
                 <a href="/">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Logonetflix.png/640px-Logonetflix.png" alt='Netflix'/>
