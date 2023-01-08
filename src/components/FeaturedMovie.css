@@ -35,3 +35,10 @@
 .featured--points {
     color: #46D369;
 }
+
+.featured--description {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999999;
+    max-width: 40%;
+}
