@@ -19,8 +19,9 @@ Uma aplicação que busca filmes de terror no The Movie Database e exibe as suas
 
 ## Aprendizados:
 
-* Melhor entendimento do funcionamento do React;
-* Consumo de API;
+* Melhor entendimento no funcionamento de componentes React;
+* Consumo de API - TMDB;
+* Utilização de Material UI;
 * Consolidação de conhecimentos em CSS;
 
 ## Agradecimentos
