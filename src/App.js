@@ -65,6 +65,11 @@ export default () => {
         Dados obtidos do site <a href="https://www.themoviedb.org/">TMDB</a>.
       </footer>
 
+      {movieList.length <= 0 &&
+        <div className="loading">
+          <img src="https://i.gifer.com/8Etj.gif" alt="Carregando" />
+        </div>
+      }
     </div>
   );
 }
