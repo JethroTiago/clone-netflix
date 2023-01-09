@@ -1,5 +1,5 @@
-# DEADFLIX - Filmes de terror!
-Clone do site Netflix, mas adaptado para filmes de terror! Criado com <strong>REACT</strong>, orientado por videoaula do instrutor [Bonieky Lacerda](https://www.youtube.com/@bonieky).
+# NETFLIX clone
+Clone do site Netflix criado com <strong>REACT</strong>, orientado por videoaula do instrutor [Bonieky Lacerda](https://www.youtube.com/@bonieky).
 
 ### Deploy
 
@@ -7,11 +7,11 @@ https://deadflix-nu.vercel.app/
 
 ### Visualização do Projeto
 
-![Terrifier](https://user-images.githubusercontent.com/103612874/210021945-af880e01-a8ec-4e8e-b6ab-9d1ed574de12.jpg)
+![Print deadflix](https://user-images.githubusercontent.com/103612874/211408470-8b2ca0cb-653d-406e-8bb9-c3f3e7d4dc25.jpeg)
 
 ## Como Funciona
 
-Uma aplicação que busca filmes de terror no The Movie Database e exibe as suas informações via resposta da API.
+Uma aplicação simula o ambiente do Netflix, utilizando informações do site The Movie Database, exibindo informações via resposta da API.
 
 ## Linguagens e estruturas de desenvolvimento:
 
