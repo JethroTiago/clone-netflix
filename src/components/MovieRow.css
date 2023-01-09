@@ -12,7 +12,7 @@
 }
 
 .movieRow--list {
-    width: 99999999px;
+    transition: all ease 0.5s;
 }
 
 .movieRow--item {
