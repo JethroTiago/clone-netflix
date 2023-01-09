@@ -1,17 +1,6 @@
 const API_KEY = 'da54db69cd70d0c038a1de3218ea9347';
 const API_BASE = 'https://api.themoviedb.org/3';
 
-/*
-- Melhores filmes
-- Sobrenatural
-- Gore
-- Clássicos
-- Documentários
-- Found Footage
-- Trash
-- Cósmico
-*/
-
 const basicFetch = async (endpoint) => {
     const req = await fetch(`${API_BASE}${endpoint}`);
     const json = await req.json();
@@ -23,42 +12,42 @@ export default {
         return [
             {
                 slug: 'toprated',
-                title: 'Melhores filmes',
+                title: 'Originais',
                 items: await basicFetch(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'supernatural',
-                title: 'Sobrenatural',
+                title: 'Recomendados',
                 items: await basicFetch(`/trending/all/week?language=pt=BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'gore',
-                title: 'Gore',
+                title: 'Em Alta',
                 items: await basicFetch(`/movie/top_rated?language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'classics',
-                title: 'Clássicos',
+                title: 'Ação',
                 items: await basicFetch(`/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'documentary',
-                title: 'Documentário',
+                title: 'Comédia',
                 items: await basicFetch(`/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'footage',
-                title: 'Found Footage',
+                title: 'Terror',
                 items: await basicFetch(`/discover/movie?with_genres=27&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'trash',
-                title: 'Trash',
+                title: 'Romance',
                 items: await basicFetch(`/discover/movie?with_genres=10749&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'cosmic',
-                title: 'Cósmico',
+                title: 'Documentários',
                 items: await basicFetch(`/discover/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`)
             },
         ];
