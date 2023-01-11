@@ -1,5 +1,5 @@
 # NETFLIX clone
-Clone do site Netflix criado com <strong>REACT</strong>, orientado por videoaula do instrutor [Bonieky Lacerda](https://www.youtube.com/@bonieky).
+Clone do ambiente/site Netflix criado com <strong>REACT</strong>, orientado por videoaula do instrutor [Bonieky Lacerda](https://www.youtube.com/@bonieky).
 
 ### Deploy
 
@@ -11,7 +11,8 @@ https://deadflix-nu.vercel.app/
 
 ## Como Funciona
 
-Uma aplicação simula o ambiente do Netflix, utilizando informações do site The Movie Database, exibindo informações via resposta da API.
+Uma aplicação que simula o ambiente do Netflix, utilizando informações do site The Movie Database, exibindo informações via resposta da API.
+Responsividade funcional!
 
 ## Linguagens e estruturas de desenvolvimento:
 
