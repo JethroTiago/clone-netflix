@@ -1,4 +1,5 @@
 # NETFLIX clone
+
 Clone do ambiente/site Netflix criado com <strong>REACT</strong>, orientado por videoaula do instrutor [Bonieky Lacerda](https://www.youtube.com/@bonieky).
 
 ### Deploy
